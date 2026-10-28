@@ -19,7 +19,7 @@ mcp = FastMCP(
 
 @mcp.tool(annotations={"readOnlyHint": True, "destructiveHint": False, "idempotentHint": True})
 def get_course_info(course_code: str) -> core.CourseInfo:
-    """Look up one AUB course and its Spring 2027 sections. Read-only: changes nothing.
+    """Look up one AUB course, including its Spring 2027 sections. Read-only: changes nothing.
 
     Args:
         course_code: A course code such as 'CMPS 214' (case and spacing are flexible, e.g. 'cmps214').
