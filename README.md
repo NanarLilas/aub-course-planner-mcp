@@ -51,7 +51,7 @@ The server also exposes two read-only resources with `@mcp.resource`:
 
 ## Data: what is real and what is sample
 
-- **From the AUB Undergraduate Catalogue 2024-25:** course titles, credits, prerequisites and the BS Computer Science requirements (`catalog.json`, `requirements.json`).
+- **From the AUB Undergraduate Catalogue :** course titles, credits, prerequisites and the BS Computer Science requirements (`catalog.json`, `requirements.json`).
 - **Sample data for this project:** each course's workload level and category, all Spring 2027 sections (days, times, capacity, enrollment), and the two demo students.
 - **Simplified:** MATH and STAT titles and prerequisites. The capstone is modeled as CMPS 299A followed by CMPS 299B.
 - **Assumption:** the 17-credit limit (21 with an approved overload petition) is a project assumption, not a figure from the catalogue.
