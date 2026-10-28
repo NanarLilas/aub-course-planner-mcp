@@ -1,0 +1,406 @@
+{
+  "semester": "Spring 2027",
+  "note": "Sample data. A course with no entry here is not offered in Spring 2027.",
+  "sections": {
+    "CMPS 201": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "08:00",
+        "end": "08:50",
+        "capacity": 60,
+        "enrolled": 52
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "08:00",
+        "end": "09:15",
+        "capacity": 60,
+        "enrolled": 41
+      }
+    ],
+    "CMPS 202": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "10:00",
+        "end": "10:50",
+        "capacity": 50,
+        "enrolled": 47
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "12:30",
+        "end": "13:45",
+        "capacity": 50,
+        "enrolled": 33
+      }
+    ],
+    "CMPS 203": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "14:00",
+        "end": "15:15",
+        "capacity": 80,
+        "enrolled": 60
+      }
+    ],
+    "CMPS 211": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "09:00",
+        "end": "09:50",
+        "capacity": 50,
+        "enrolled": 44
+      }
+    ],
+    "CMPS 214": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "09:30",
+        "end": "10:45",
+        "capacity": 40,
+        "enrolled": 31
+      },
+      {
+        "section": 2,
+        "days": "MWF",
+        "start": "13:00",
+        "end": "13:50",
+        "capacity": 40,
+        "enrolled": 22
+      }
+    ],
+    "CMPS 215": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "10:00",
+        "end": "10:50",
+        "capacity": 40,
+        "enrolled": 18
+      }
+    ],
+    "CMPS 221": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "09:00",
+        "end": "09:50",
+        "capacity": 40,
+        "enrolled": 35
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "14:00",
+        "end": "15:15",
+        "capacity": 40,
+        "enrolled": 12
+      }
+    ],
+    "CMPS 224": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "12:30",
+        "end": "13:45",
+        "capacity": 30,
+        "enrolled": 14
+      }
+    ],
+    "CMPS 232": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "14:00",
+        "end": "14:50",
+        "capacity": 30,
+        "enrolled": 9
+      }
+    ],
+    "CMPS 240": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "11:00",
+        "end": "12:15",
+        "capacity": 40,
+        "enrolled": 27
+      }
+    ],
+    "CMPS 241": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "11:00",
+        "end": "11:50",
+        "capacity": 35,
+        "enrolled": 35
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "15:30",
+        "end": "16:45",
+        "capacity": 35,
+        "enrolled": 20
+      }
+    ],
+    "CMPS 242": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "11:00",
+        "end": "12:15",
+        "capacity": 35,
+        "enrolled": 16
+      }
+    ],
+    "CMPS 243": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "14:00",
+        "end": "14:50",
+        "capacity": 35,
+        "enrolled": 30
+      }
+    ],
+    "CMPS 244": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "09:30",
+        "end": "10:45",
+        "capacity": 40,
+        "enrolled": 38
+      },
+      {
+        "section": 2,
+        "days": "MWF",
+        "start": "15:00",
+        "end": "15:50",
+        "capacity": 40,
+        "enrolled": 26
+      }
+    ],
+    "CMPS 251": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "10:00",
+        "end": "10:50",
+        "capacity": 35,
+        "enrolled": 21
+      }
+    ],
+    "CMPS 254": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "14:00",
+        "end": "15:15",
+        "capacity": 30,
+        "enrolled": 11
+      }
+    ],
+    "CMPS 261": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "11:00",
+        "end": "11:50",
+        "capacity": 45,
+        "enrolled": 45
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "17:00",
+        "end": "18:15",
+        "capacity": 45,
+        "enrolled": 39
+      }
+    ],
+    "CMPS 262": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "12:30",
+        "end": "13:45",
+        "capacity": 40,
+        "enrolled": 29
+      }
+    ],
+    "CMPS 270": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "13:00",
+        "end": "13:50",
+        "capacity": 35,
+        "enrolled": 17
+      }
+    ],
+    "CMPS 271": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "09:30",
+        "end": "10:45",
+        "capacity": 40,
+        "enrolled": 25
+      },
+      {
+        "section": 2,
+        "days": "MWF",
+        "start": "12:00",
+        "end": "12:50",
+        "capacity": 40,
+        "enrolled": 18
+      }
+    ],
+    "CMPS 278": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "15:30",
+        "end": "16:45",
+        "capacity": 35,
+        "enrolled": 33
+      }
+    ],
+    "CMPS 280": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "16:00",
+        "end": "16:50",
+        "capacity": 30,
+        "enrolled": 12
+      }
+    ],
+    "CMPS 285": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "17:00",
+        "end": "18:15",
+        "capacity": 30,
+        "enrolled": 19
+      }
+    ],
+    "CMPS 288": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "14:00",
+        "end": "14:50",
+        "capacity": 30,
+        "enrolled": 30
+      }
+    ],
+    "CMPS 299A": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "17:00",
+        "end": "17:50",
+        "capacity": 30,
+        "enrolled": 8
+      }
+    ],
+    "CMPS 299B": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "17:00",
+        "end": "18:15",
+        "capacity": 30,
+        "enrolled": 15
+      }
+    ],
+    "MATH 201": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "08:00",
+        "end": "08:50",
+        "capacity": 60,
+        "enrolled": 50
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "11:00",
+        "end": "12:15",
+        "capacity": 60,
+        "enrolled": 44
+      }
+    ],
+    "MATH 211": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "08:00",
+        "end": "09:15",
+        "capacity": 50,
+        "enrolled": 40
+      }
+    ],
+    "MATH 218": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "12:00",
+        "end": "12:50",
+        "capacity": 60,
+        "enrolled": 55
+      },
+      {
+        "section": 2,
+        "days": "TR",
+        "start": "15:30",
+        "end": "16:45",
+        "capacity": 60,
+        "enrolled": 31
+      }
+    ],
+    "MATH 219": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "12:30",
+        "end": "13:45",
+        "capacity": 40,
+        "enrolled": 22
+      }
+    ],
+    "STAT 230": [
+      {
+        "section": 1,
+        "days": "MWF",
+        "start": "15:00",
+        "end": "15:50",
+        "capacity": 60,
+        "enrolled": 48
+      }
+    ],
+    "STAT 233": [
+      {
+        "section": 1,
+        "days": "TR",
+        "start": "14:00",
+        "end": "15:15",
+        "capacity": 50,
+        "enrolled": 37
+      }
+    ]
+  }
+}

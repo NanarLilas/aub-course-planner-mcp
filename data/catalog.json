@@ -1,0 +1,674 @@
+{
+  "source": "AUB Undergraduate Catalogue 2024-25, Department of Computer Science",
+  "sample_fields": [
+    "category",
+    "workload"
+  ],
+  "notes": [
+    "Titles, credits, prerequisites and offering frequency are from the catalogue.",
+    "Workload levels are sample data for this project.",
+    "MATH and STAT titles and prerequisites are simplified (not taken from the catalogue).",
+    "CMPS 290, 296, 297 and the 3-credit CMPS 299 are excluded; the capstone is modeled as CMPS 299A then CMPS 299B."
+  ],
+  "courses": [
+    {
+      "code": "CMPS 201",
+      "title": "Introduction to Programming",
+      "credits": 3,
+      "category": "core",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None"
+    },
+    {
+      "code": "CMPS 202",
+      "title": "Data Structures",
+      "credits": 3,
+      "category": "core",
+      "workload": "heavy",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 201",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 201"
+    },
+    {
+      "code": "CMPS 203",
+      "title": "Programming for Everyone",
+      "credits": 3,
+      "category": "non-major",
+      "workload": "light",
+      "frequency": "Annually",
+      "open_to_cs_majors": false,
+      "prerequisites": null,
+      "prerequisites_text": "None",
+      "note": "Not open to computer science students."
+    },
+    {
+      "code": "CMPS 211",
+      "title": "Discrete Structures",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (equivalent to MATH 211)"
+    },
+    {
+      "code": "CMPS 214",
+      "title": "Design and Analysis of Algorithms",
+      "credits": 3,
+      "category": "core",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "CMPS 211"
+              },
+              {
+                "course": "MATH 211"
+              }
+            ]
+          },
+          {
+            "course": "CMPS 202",
+            "min_grade": 70
+          }
+        ]
+      },
+      "prerequisites_text": "CMPS 211 or MATH 211, and a grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 215",
+      "title": "Theory of Computation",
+      "credits": 3,
+      "category": "core",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 214"
+      },
+      "prerequisites_text": "CMPS 214"
+    },
+    {
+      "code": "CMPS 221",
+      "title": "Computer Organization and Design",
+      "credits": 3,
+      "category": "core",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "CMPS 211"
+              },
+              {
+                "course": "MATH 211"
+              }
+            ]
+          },
+          {
+            "course": "CMPS 202",
+            "min_grade": 70
+          }
+        ]
+      },
+      "prerequisites_text": "CMPS 211 or MATH 211, and a grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 224",
+      "title": "GPU Computing",
+      "credits": 3,
+      "category": "elective",
+      "workload": "heavy",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "any": [
+          {
+            "course": "CMPS 221"
+          },
+          {
+            "consent": true
+          }
+        ]
+      },
+      "prerequisites_text": "CMPS 221 or consent of instructor"
+    },
+    {
+      "code": "CMPS 231",
+      "title": "Programming Languages",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 232",
+      "title": "Compiler Construction",
+      "credits": 3,
+      "category": "elective",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 221"
+      },
+      "prerequisites_text": "CMPS 221"
+    },
+    {
+      "code": "CMPS 240",
+      "title": "Operating Systems",
+      "credits": 3,
+      "category": "core",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 221"
+      },
+      "prerequisites_text": "CMPS 221"
+    },
+    {
+      "code": "CMPS 241",
+      "title": "Systems and Network Programming",
+      "credits": 3,
+      "category": "core",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 242",
+      "title": "Computer Networks",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 221"
+      },
+      "prerequisites_text": "CMPS 221"
+    },
+    {
+      "code": "CMPS 243",
+      "title": "Computer and Information Security",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "course": "CMPS 202",
+            "min_grade": 70
+          },
+          {
+            "standing": "senior"
+          }
+        ]
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202 and senior standing"
+    },
+    {
+      "code": "CMPS 244",
+      "title": "Database Systems",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "any": [
+          {
+            "course": "CMPS 202",
+            "min_grade": 70
+          },
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "course": "CMPS 201",
+                    "min_grade": 70
+                  },
+                  {
+                    "course": "CMPS 203",
+                    "min_grade": 70
+                  }
+                ]
+              },
+              {
+                "standing": "junior"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisites_text": "A grade of at least C+ in CMPS 202, or (a grade of at least C+ in CMPS 201 or CMPS 203, and junior standing)"
+    },
+    {
+      "code": "CMPS 251",
+      "title": "Numerical Computing",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "CMPS 201",
+                "min_grade": 70
+              },
+              {
+                "course": "EECE 230",
+                "min_grade": 70
+              }
+            ]
+          },
+          {
+            "course": "MATH 201"
+          }
+        ]
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 201 or EECE 230, and MATH 201"
+    },
+    {
+      "code": "CMPS 254",
+      "title": "Numerical Linear Algebra",
+      "credits": 3,
+      "category": "elective",
+      "workload": "heavy",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "MATH 218"
+              },
+              {
+                "course": "MATH 219"
+              }
+            ]
+          },
+          {
+            "prereq_or_coreq": "CMPS 251"
+          }
+        ]
+      },
+      "prerequisites_text": "MATH 218 or MATH 219; CMPS 251 as prerequisite or co-requisite"
+    },
+    {
+      "code": "CMPS 261",
+      "title": "Machine Learning",
+      "credits": 3,
+      "category": "elective",
+      "workload": "heavy",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "CMPS 201",
+                "min_grade": 70
+              },
+              {
+                "course": "CMPS 203",
+                "min_grade": 70
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "BUSS 200"
+              },
+              {
+                "course": "STAT 201"
+              },
+              {
+                "course": "STAT 210"
+              },
+              {
+                "course": "STAT 230"
+              },
+              {
+                "course": "STAT 233"
+              },
+              {
+                "course": "EDUC 227"
+              },
+              {
+                "course": "ECON 213"
+              },
+              {
+                "course": "NURS 203"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "MATH 218"
+              },
+              {
+                "course": "MATH 219"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 201 or CMPS 203, a statistics course (e.g. STAT 230), and MATH 218 or MATH 219"
+    },
+    {
+      "code": "CMPS 262",
+      "title": "Data Science",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              {
+                "course": "CMPS 201",
+                "min_grade": 70
+              },
+              {
+                "course": "CMPS 203",
+                "min_grade": 70
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "BUSS 200"
+              },
+              {
+                "course": "STAT 201"
+              },
+              {
+                "course": "STAT 210"
+              },
+              {
+                "course": "STAT 230"
+              },
+              {
+                "course": "STAT 233"
+              },
+              {
+                "course": "EDUC 227"
+              },
+              {
+                "course": "ECON 213"
+              },
+              {
+                "course": "NURS 203"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 201 or CMPS 203, and a statistics course (e.g. STAT 230)"
+    },
+    {
+      "code": "CMPS 270",
+      "title": "Software Construction",
+      "credits": 3,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 271",
+      "title": "Software Engineering",
+      "credits": 3,
+      "category": "core",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 278",
+      "title": "Web Programming and Design",
+      "credits": 3,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 279",
+      "title": "Mobile Applications Development",
+      "credits": 3,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 280",
+      "title": "Digital Media Programming",
+      "credits": 3,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Not specified",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 201",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 201"
+    },
+    {
+      "code": "CMPS 285",
+      "title": "Computer Graphics",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 286",
+      "title": "Computer-Aided Geometric Design",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Biennially",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 285"
+      },
+      "prerequisites_text": "CMPS 285"
+    },
+    {
+      "code": "CMPS 288",
+      "title": "Game Programming",
+      "credits": 3,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Annually",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 202",
+        "min_grade": 70
+      },
+      "prerequisites_text": "A grade of at least C+ (70) in CMPS 202"
+    },
+    {
+      "code": "CMPS 289",
+      "title": "Human Computer Interaction",
+      "credits": 3,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Biennially",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 271"
+      },
+      "prerequisites_text": "CMPS 271"
+    },
+    {
+      "code": "CMPS 299A",
+      "title": "Capstone Project I",
+      "credits": 1,
+      "category": "elective",
+      "workload": "light",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "all": [
+          {
+            "consent": true
+          },
+          {
+            "standing": "senior"
+          }
+        ]
+      },
+      "prerequisites_text": "Consent of instructor and senior standing"
+    },
+    {
+      "code": "CMPS 299B",
+      "title": "Capstone Project II",
+      "credits": 2,
+      "category": "elective",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": {
+        "course": "CMPS 299A"
+      },
+      "prerequisites_text": "CMPS 299A"
+    },
+    {
+      "code": "MATH 201",
+      "title": "Calculus and Analytic Geometry III",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified)"
+    },
+    {
+      "code": "MATH 211",
+      "title": "Discrete Mathematics",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified; equivalent to CMPS 211)"
+    },
+    {
+      "code": "MATH 218",
+      "title": "Elementary Linear Algebra with Applications",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified)"
+    },
+    {
+      "code": "MATH 219",
+      "title": "Linear Algebra I",
+      "credits": 3,
+      "category": "math",
+      "workload": "heavy",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified; alternative to MATH 218)"
+    },
+    {
+      "code": "STAT 230",
+      "title": "Introduction to Probability and Random Variables",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified)"
+    },
+    {
+      "code": "STAT 233",
+      "title": "Probability and Statistics (alternative)",
+      "credits": 3,
+      "category": "math",
+      "workload": "medium",
+      "frequency": "Every term",
+      "open_to_cs_majors": true,
+      "prerequisites": null,
+      "prerequisites_text": "None (simplified; alternative to STAT 230)"
+    }
+  ]
+}

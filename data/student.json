@@ -1,0 +1,20 @@
+{
+  "name": "Demo Student A",
+  "program": "BS in Computer Science",
+  "standing": "junior",
+  "completed": {
+    "CMPS 201": 85,
+    "CMPS 202": 78,
+    "CMPS 211": 80,
+    "MATH 201": 82,
+    "MATH 218": 75,
+    "STAT 230": 88
+  },
+  "approved_petitions": [
+    {
+      "type": "instructor_consent",
+      "course": "CMPS 224",
+      "note": "Instructor approved enrollment without CMPS 221."
+    }
+  ]
+}

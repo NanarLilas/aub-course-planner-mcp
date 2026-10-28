@@ -1,0 +1,50 @@
+{
+  "program": "BS in Computer Science",
+  "source": "AUB Undergraduate Catalogue 2024-25",
+  "required_cmps": [
+    "CMPS 201",
+    "CMPS 202",
+    "CMPS 214",
+    "CMPS 215",
+    "CMPS 221",
+    "CMPS 240",
+    "CMPS 241",
+    "CMPS 271"
+  ],
+  "required_math": [
+    [
+      "MATH 201"
+    ],
+    [
+      "MATH 211",
+      "CMPS 211"
+    ],
+    [
+      "MATH 218",
+      "MATH 219"
+    ],
+    [
+      "STAT 230",
+      "STAT 233"
+    ]
+  ],
+  "cmps_electives": {
+    "credits": 18,
+    "min_course_number": 214,
+    "excluded": [
+      "CMPS 297T"
+    ]
+  },
+  "policies": {
+    "credit_limit": 17,
+    "credit_limit_source": "Project assumption (not stated in the catalogue)",
+    "max_credits_with_overload": 21,
+    "c_plus_grade": 70,
+    "standing_order": [
+      "freshman",
+      "sophomore",
+      "junior",
+      "senior"
+    ]
+  }
+}
