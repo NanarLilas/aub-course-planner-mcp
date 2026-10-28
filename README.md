@@ -65,15 +65,14 @@ There are two demo students:
 
 You need Python 3.10 or newer and an OpenAI API key.
 
-1. Create and activate an environment, then install the packages. With conda:
+1. Create a virtual environment and install the packages:
 
    ```bash
-   conda create -n mcp-planner python=3.11 -y
-   conda activate mcp-planner
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
    ```
 
-   A standard virtual environment works too: `python3 -m venv .venv`, `source .venv/bin/activate`, then `pip install -r requirements.txt`.
 
 2. Copy the template and add your key:
 
