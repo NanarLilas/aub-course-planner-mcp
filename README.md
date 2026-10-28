@@ -1,8 +1,11 @@
 # AUB Course Planner (MCP Toolkit)
 
+**🎥 Demo video:** [Link](https://youtu.be/YOUR_VIDEO_ID)
+
 An AI academic advisor that helps a BS Computer Science student at AUB plan their Spring 2027 semester. The tools live in an MCP server built with FastMCP, and the agent is built with the OpenAI Agents SDK. The agent acts as the MCP host and client: it launches the server, discovers its tools, and routes each student request to the right one.
 
 Built for EECE 503P/798S (Agentic Systems), assignment C5: Agent Tools.
+
 
 ## The three tools
 
